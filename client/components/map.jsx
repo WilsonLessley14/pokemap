@@ -13,7 +13,7 @@ class Map extends React.Component {
   render() {
     return (
       <div id="map-main">
-        Map
+        Map but im making changes for an example
       </div>
     )
   }
