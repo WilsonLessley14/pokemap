@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import App from './app.jsx';
 
 ReactDOM.render(<App/>, document.getElementById('app'));
+//test comment
 
 //  REACT 18 COMPLIANT SYNTAX
 //-------------------------------

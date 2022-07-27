@@ -13,14 +13,21 @@ class App extends React.Component {
 
   render() {
     return (
-      <div id="app-main">
-        <header>
-          <comp.Hub />
+      <div id="app-main">ß
+        <div id="header">
           <comp.Profile />
-        </header>
-        <comp.Map />
-        <comp.MapOptions />
-        <comp.Minimap />
+
+          Div inner text
+        </div>
+        <div id="app-display">
+          <comp.Map />
+          <comp.MapOptions />
+          <comp.Minimap />
+        </div>
+
+        <div id="footer">
+
+        </div>
       </div>
     )
   }
